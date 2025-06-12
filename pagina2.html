@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Dia dos Namorados</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ffc0cb, #fff0f5);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d1005d;
+      font-size: 2.5rem;
+      margin: 40px 20px 20px;
+    }
+
+    .carousel {
+      position: relative;
+      width: 700px;
+      max-width: 100%;
+      margin: 30px auto 40px;
+      overflow: hidden;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 0, 100, 0.3);
+    }
+
+    .slides {
+      display: flex;
+      width: 120%;
+      animation: slide 16s infinite;
+    }
+
+    .slides img {
+      width: 100%;
+      height: 450px;
+    }
+
+    @keyframes slide {
+      0% { transform: translateX(0%); }
+      20% { transform: translateX(0%); }
+      25% { transform: translateX(-100%); }
+      45% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      70% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      95% { transform: translateX(-300%); }
+      100% { transform: translateX(0%); }
+    }
+
+    audio {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Feliz Dia dos Namorados, meu amor!</h1>
+
+  <div class="carousel">
+    <div class="slides">
+      <img src="Foto1.png" alt="Foto 1">
+      <img src="Foto2.png" alt="Foto 2">
+      <img src="Foto3.png" alt="Foto 3">
+      <img src="Foto4.png" alt="Foto 4">
+    </div>
+  </div>
+
+<audio>
+  <source src="midia/Mirrors.mp3" type="mpeg">
+  <source src="midia/Mirrors.ogg" type="ogg">
+  
+</audio>
+
+
+</script>
+<button onclick="window.location.href='terceiro.html'" style="
+  margin-top: 30px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  background-color: #d1005d;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+">
+  Ver minha mensagem pra você
+</button>
+
+
+
+
+</body>
+</html>
